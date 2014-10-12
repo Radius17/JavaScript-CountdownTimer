@@ -1,4 +1,4 @@
-# Javascrip countdown timer
+# Javascript countdown timer
 
 #### Created by Radius17 (info@radius17.ru)
 
