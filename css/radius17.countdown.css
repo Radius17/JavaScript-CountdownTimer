@@ -1,0 +1,66 @@
+/** * Copyright (c) 2007-2014 Radius17 - info<a>radius17<d>ru | http://radius17.ru * Licensed under MIT license * @author Radius17 * @version 1.0.0 */.countdown{	font-size:78px;
+	font-family:Helvetica;
+	*height: 1%;
+}
+.countdown:after {
+	content: ".";
+	zoom: 1; /* set hasLayout */
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.cd_days,
+.cd_hours,
+.cd_minutes,
+.cd_seconds,
+.cd_days_label,
+.cd_hours_label,
+.cd_minutes_label,
+.cd_seconds_label,
+.cd_separator_1,
+.cd_separator_2{	float:left;
+	width:112px;
+	height:104px;	display:block;
+	text-align:center;
+	padding:0;
+}
+.cd_days>div,
+.cd_hours>div,
+.cd_minutes>div,
+.cd_seconds>div{	float:left;
+	text-align:center;
+	width:50%;
+	height:90px;
+	padding:0;
+	margin:0;
+	background:url(../images/numeric_bg.png) no-repeat center center transparent;
+}
+.cd_days .cd_days_label,
+.cd_hours .cd_hours_label,
+.cd_minutes .cd_minutes_label,
+.cd_seconds .cd_seconds_label{	margin:0;
+	padding:0;
+	width:100%;
+	clear:left;
+	height:14px;
+	background:url(../images/days_label.png) no-repeat center center transparent;
+}
+.cd_hours .cd_hours_label{	background:url(../images/hours_label.png) no-repeat center center transparent;
+}
+.cd_minutes .cd_minutes_label{	background:url(../images/minutes_label.png) no-repeat center center transparent;
+}
+.cd_seconds .cd_seconds_label{	background:url(../images/seconds_label.png) no-repeat center center transparent;
+}
+.cd_separator_1,
+.cd_separator_2{
+	padding:0;
+	margin:0;
+	width:10px;
+}
+.cd_separator_1{	background:url(../images/separator_1.png) no-repeat center center transparent;
+}
+.cd_separator_2{
+	background:url(../images/separator_2.png) no-repeat center center transparent;
+}
