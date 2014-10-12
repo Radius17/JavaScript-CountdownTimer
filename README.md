@@ -1,6 +1,6 @@
 # Javascrip countdown timer
 
-#### Cerated by Radius17 (radius17@gmail.com)
+#### Created by Radius17 (info@radius17.ru)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
