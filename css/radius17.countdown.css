@@ -2,6 +2,8 @@
 	font-family:Helvetica;
 	*height: 1%;
 }
+.countdown_mini{	font-size:36px;
+}
 .countdown:after {
 	content: ".";
 	zoom: 1; /* set hasLayout */
@@ -11,25 +13,37 @@
 	visibility: hidden;
 	font-size: 0;
 }
-.cd_days,
-.cd_hours,
-.cd_minutes,
-.cd_seconds,
-.cd_days_label,
-.cd_hours_label,
-.cd_minutes_label,
-.cd_seconds_label,
-.cd_separator_1,
-.cd_separator_2{	float:left;
+.countdown .cd_days,
+.countdown .cd_hours,
+.countdown .cd_minutes,
+.countdown .cd_seconds,
+.countdown .cd_days_label,
+.countdown .cd_hours_label,
+.countdown .cd_minutes_label,
+.countdown .cd_seconds_label,
+.countdown .cd_separator_1,
+.countdown .cd_separator_2{	float:left;
 	width:112px;
 	height:104px;	display:block;
 	text-align:center;
 	padding:0;
 }
-.cd_days>div,
-.cd_hours>div,
-.cd_minutes>div,
-.cd_seconds>div{	float:left;
+.countdown_mini .cd_days,
+.countdown_mini .cd_hours,
+.countdown_mini .cd_minutes,
+.countdown_mini .cd_seconds,
+.countdown_mini .cd_days_label,
+.countdown_mini .cd_hours_label,
+.countdown_mini .cd_minutes_label,
+.countdown_mini .cd_seconds_label,
+.countdown_mini .cd_separator_1,
+.countdown_mini .cd_separator_2{	width:48px;
+	height:50px;
+}
+.countdown .cd_days>div,
+.countdown .cd_hours>div,
+.countdown .cd_minutes>div,
+.countdown .cd_seconds>div{	float:left;
 	text-align:center;
 	width:50%;
 	height:90px;
@@ -37,30 +51,60 @@
 	margin:0;
 	background:url(../images/numeric_bg.png) no-repeat center center transparent;
 }
-.cd_days .cd_days_label,
-.cd_hours .cd_hours_label,
-.cd_minutes .cd_minutes_label,
-.cd_seconds .cd_seconds_label{	margin:0;
+.countdown_mini .cd_days>div,
+.countdown_mini .cd_hours>div,
+.countdown_mini .cd_minutes>div,
+.countdown_mini .cd_seconds>div{	background:url(../images/numeric_bg_mini.png) no-repeat center center transparent;
+	height:38px;
+}
+.countdown .cd_days .cd_days_label,
+.countdown .cd_hours .cd_hours_label,
+.countdown .cd_minutes .cd_minutes_label,
+.countdown .cd_seconds .cd_seconds_label{	margin:0;
 	padding:0;
 	width:100%;
 	clear:left;
 	height:14px;
 	background:url(../images/days_label.png) no-repeat center center transparent;
 }
-.cd_hours .cd_hours_label{	background:url(../images/hours_label.png) no-repeat center center transparent;
+.countdown_mini .cd_days .cd_days_label,
+.countdown_mini .cd_hours .cd_hours_label,
+.countdown_mini .cd_minutes .cd_minutes_label,
+.countdown_mini .cd_seconds .cd_seconds_label{	height:14px;
+	background:url(../images/days_label_mini.png) no-repeat center center transparent;
 }
-.cd_minutes .cd_minutes_label{	background:url(../images/minutes_label.png) no-repeat center center transparent;
+.countdown .cd_hours .cd_hours_label{	background:url(../images/hours_label.png) no-repeat center center transparent;
 }
-.cd_seconds .cd_seconds_label{	background:url(../images/seconds_label.png) no-repeat center center transparent;
+.countdown_mini .cd_hours .cd_hours_label{
+	background:url(../images/hours_label_mini.png) no-repeat center center transparent;
 }
-.cd_separator_1,
-.cd_separator_2{
+.countdown .cd_minutes .cd_minutes_label{	background:url(../images/minutes_label.png) no-repeat center center transparent;
+}
+.countdown_mini .cd_minutes .cd_minutes_label{
+	background:url(../images/minutes_label_mini.png) no-repeat center center transparent;
+}
+.countdown .cd_seconds .cd_seconds_label{	background:url(../images/seconds_label.png) no-repeat center center transparent;
+}
+.countdown_mini .cd_seconds .cd_seconds_label{
+	background:url(../images/seconds_label_mini.png) no-repeat center center transparent;
+}
+.countdown .cd_separator_1,
+.countdown .cd_separator_2{
 	padding:0;
 	margin:0;
 	width:10px;
 }
-.cd_separator_1{	background:url(../images/separator_1.png) no-repeat center center transparent;
+.countdown_mini .cd_separator_1,
+.countdown_mini .cd_separator_2{	width:4px;
 }
-.cd_separator_2{
+.countdown .cd_separator_1{	background:url(../images/separator_1.png) no-repeat center center transparent;
+}
+.countdown_mini .cd_separator_1{
+	background:url(../images/separator_1_mini.png) no-repeat center center transparent;
+}
+.countdown .cd_separator_2{
 	background:url(../images/separator_2.png) no-repeat center center transparent;
+}
+.countdown_mini .cd_separator_2{
+	background:url(../images/separator_2_mini.png) no-repeat center center transparent;
 }
