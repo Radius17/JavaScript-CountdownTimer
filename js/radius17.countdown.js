@@ -1,4 +1,5 @@
 /**
+ * Javascript countdown timer
  * Copyright (c) 2007-2014 Radius17 - info<a>radius17<d>ru | http://radius17.ru
  * Licensed under MIT license
  * @author Radius17

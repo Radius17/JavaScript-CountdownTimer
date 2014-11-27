@@ -1,4 +1,4 @@
-/** * Copyright (c) 2007-2014 Radius17 - info<a>radius17<d>ru | http://radius17.ru * Licensed under MIT license * @author Radius17 * @version 1.0.0 */.countdown{	font-size:78px;
+/** * Javascript countdown timer * Copyright (c) 2007-2014 Radius17 - info<a>radius17<d>ru | http://radius17.ru * Licensed under MIT license * @author Radius17 * @version 1.0.0 */.countdown{	font-size:78px;
 	font-family:Helvetica;
 	*height: 1%;
 }
@@ -47,7 +47,7 @@
 	text-align:center;
 	width:50%;
 	height:90px;
-	padding:0;
+	line-height:90px;	padding:0;
 	margin:0;
 	background:url(../images/numeric_bg.png) no-repeat center center transparent;
 }
@@ -56,7 +56,7 @@
 .countdown_mini .cd_minutes>div,
 .countdown_mini .cd_seconds>div{	background:url(../images/numeric_bg_mini.png) no-repeat center center transparent;
 	height:38px;
-}
+	line-height:38px;}
 .countdown .cd_days .cd_days_label,
 .countdown .cd_hours .cd_hours_label,
 .countdown .cd_minutes .cd_minutes_label,
